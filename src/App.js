@@ -19,17 +19,7 @@ class App extends Component {
     });
   };
 
-  updateName = (name, id) => {
-    this.setState({
-      slots: this.state.slots.map((slot) => {
-        if (slot.id === id) {
-          slot.name = name;
-          console.log(this.state.slots.name);
-        }
-        return slot;
-      }),
-    });
-  };
+ 
   SlotsItem = (name) => {
     console.log(name);
   };

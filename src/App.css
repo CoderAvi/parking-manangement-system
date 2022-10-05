@@ -25,18 +25,7 @@ h1 {
   border-top: 5px solid rgb(77, 74, 74);
 }
 
-#Parking {
-  margin: 30px 20px 5px;
-}
-
-.Slots {
-  display: inline-block;
-  height: 100px;
-  width: 100px;
-  border: 2px solid green;
-  background-color: white;
-  margin: 10px 20px;
-}
+#Parking 
 .Slot-head {
   background-color: teal;
 }
